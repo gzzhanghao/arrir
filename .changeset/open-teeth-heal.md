@@ -1,5 +1,0 @@
----
-'arrir': minor
----
-
-Initial release
