@@ -1,0 +1,37 @@
+{
+  "name": "arrir",
+  "version": "0.0.0",
+  "repository": "gzzhanghao/arrir",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "default": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.29.5",
+    "@eslint/js": "^9.32.0",
+    "@microsoft/api-extractor": "^7.52.9",
+    "@vitest/coverage-v8": "3.2.4",
+    "eslint": "^9.32.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.3",
+    "prettier": "^3.6.2",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.38.0",
+    "unplugin-dts": "1.0.0-beta.4",
+    "vite": "^7.0.6",
+    "vitest": "^3.2.4"
+  },
+  "packageManager": "pnpm@10.13.1"
+}
